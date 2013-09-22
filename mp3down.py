@@ -15,7 +15,7 @@
  15 #print soup
  16 fin=re.findall(r'http:.*.mp3',links[0])
  17 pr=fin[0].split("'")
- 18 print pr[0]
+ 18 #print pr[0]
  19 filelink=urllib2.urlopen(pr[0])
  20 name=name + ".mp3"
  21 output=open(name,'wb')
